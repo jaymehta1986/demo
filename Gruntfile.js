@@ -22,7 +22,7 @@ module.exports = function (grunt) {
   };
 
   // Define the configuration for all the tasks
-  grunt.initConfig({
+  grunt.initConfig({    
 
     // Project settings
     yeoman: appConfig,
@@ -409,5 +409,7 @@ module.exports = function (grunt) {
     'test',
     'build'
   ]);
+
+  grunt.registerTask('heroku', ['serve']);
 
 };
