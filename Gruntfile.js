@@ -410,5 +410,5 @@ module.exports = function (grunt) {
     'build'
   ]);
 
-  grunt.registerTask('heroku:development', 'clean less mincss');
+  grunt.registerTask('heroku', 'clean less mincss');
 };
