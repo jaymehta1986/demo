@@ -37,7 +37,7 @@
   },
   "scripts": {
     "test": "grunt test",
-    "postinstall": "node_modules/.bin/grunt serve"
+    "postinstall": "./node_modules/.bin/grunt serve"
   },
   "main": "Gruntfile.js",
   "directories": {
