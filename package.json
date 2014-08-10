@@ -4,7 +4,8 @@
   "dependencies": {
     "express": "^4.8.1",
     "gzippo": "^0.2.0",
-    "logfmt": "^1.1.2"
+    "logfmt": "^1.1.2",
+    "grunt-cli": "*"
   },
   "devDependencies": {
     "grunt": "^0.4.1",
