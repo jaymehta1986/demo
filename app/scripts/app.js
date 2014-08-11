@@ -19,7 +19,7 @@ var demoApp = angular
     $routeProvider
       .when('/', {
         templateUrl: 'views/login.html',
-        controller: 'MainCtrl'
+        controller: 'LoginController'
       })
       .when('/about', {
         templateUrl: 'views/about.html',
