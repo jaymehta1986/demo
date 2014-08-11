@@ -21,9 +21,13 @@ var demoApp = angular
         templateUrl: 'views/login.html',
         controller: 'LoginController'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl'
+      .when('/contact', {
+        templateUrl: 'views/contact.html',
+        controller: 'ContactController'
+      })
+      .when('/order', {
+        templateUrl: 'views/order.html',
+        controller: 'OrderController'
       })
       .when('/login', {
         templateUrl: 'views/login.html',
@@ -34,11 +38,19 @@ var demoApp = angular
         templateUrl: 'views/home.html',
         controller: 'HomeController'
       })
+      .when('/logout', {
+        controller: 'LogoutController'
+      })
 
       .otherwise({
         redirectTo: '/'
       });
-  });
+  }).run(['$rootScope', '$location', function($rootScope, $location){
+     var path = function() { return $location.path();};
+       $rootScope.$watch(path, function(newVal, oldVal){
+         $rootScope.activetab = newVal;
+       });
+  }]);
 
   demoApp.factory("AuthenticationService", function($location) {
     return {
@@ -55,6 +67,7 @@ var demoApp = angular
       }
     };
   });
+
 
   demoApp.directive("showsMessageWhenHovered", function() {
   return {
