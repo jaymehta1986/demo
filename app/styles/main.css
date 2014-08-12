@@ -67,14 +67,16 @@ div#login div {
 }
 
 div.view {
-  margin-left: 300px;  
+  padding-left: 200px;
+  padding-right: 200px;  
+  text-align: center;
 }
 
 @media screen and (max-width: 600px) {
   
   div.view {
-    text-align: center;
-    margin: auto;  
+    margin: auto 0; 
+    padding: 40px; 
   }
 }
 
