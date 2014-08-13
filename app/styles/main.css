@@ -67,8 +67,6 @@ div#login div {
 }
 
 div.view {
-  /*padding-left: 200px;
-  padding-right: 200px; */ 
   text-align: center;
 }
 
@@ -92,6 +90,22 @@ form .list-group-item {
 
 form .list-group-item:first-child {
   margin-top: 35px;
+}
+
+/*div.large-5, div.large-6 {
+  text-align: left;
+  float: left;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  position: relative;
+  width: 50%;
+}*/
+div.row {
+font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+color: #444444;
+line-height: 1.6;
+font-size: 12px;
+letter-spacing: 1px;
 }
 
 @media screen and (max-width: 600px) {
