@@ -71,42 +71,21 @@ var demoApp = angular
     };
   });
 
-  // demoApp.directive("openModalWhenClicked", function() {
-  //   return {
-  //     restrict: "A",
-  //     link: function (scope, modal, element, attributes) {
-  //       element.bind("click", function () {
-  //         var modalInstance = $modal.open({
-  //           templateUrl: 'myModalContent.html',
-  //           controller: ModalInstanceCtrl,
-  //           size: size,
-  //           resolve: {
-  //             items: function () {
-  //               return $scope.items;
-  //             }
-  //           }
-  //         });
-    
-  //       });
-  //     } 
-  //   }
-  // });
+   
 
- 
-
-  demoApp.directive("showsMessageWhenHovered", function() {
-  return {
-    restrict: "A", // A = Attribute, C = CSS Class, E = HTML Element, M = HTML Comment
-    link: function(scope, element, attributes) {
-      var originalMessage = scope.message;
-      element.bind("mouseenter", function() {
-        scope.message = attributes.message;
-        scope.$apply();
-      });
-      element.bind("mouseleave", function() {
-        scope.message = originalMessage;
-        scope.$apply();
-      });
-    }
-  };
-});
+//   demoApp.directive("showsMessageWhenHovered", function() {
+//   return {
+//     restrict: "A", // A = Attribute, C = CSS Class, E = HTML Element, M = HTML Comment
+//     link: function(scope, element, attributes) {
+//       var originalMessage = scope.message;
+//       element.bind("mouseenter", function() {
+//         scope.message = attributes.message;
+//         scope.$apply();
+//       });
+//       element.bind("mouseleave", function() {
+//         scope.message = originalMessage;
+//         scope.$apply();
+//       });
+//     }
+//   };
+// });

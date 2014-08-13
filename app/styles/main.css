@@ -67,15 +67,31 @@ div#login div {
 }
 
 div.view {
-  padding-left: 200px;
-  padding-right: 200px;  
+  /*padding-left: 200px;
+  padding-right: 200px; */ 
   text-align: center;
 }
 
 span.glyphicon {
   position: absolute;
-  right: 6px;
+  right: 20px;
   top: 13px;  
+}
+
+div.form-group {
+  padding-bottom: 30px;
+}
+
+div.form-group textarea {
+  float: left;
+}
+
+form .list-group-item {
+  margin: 20px;
+}
+
+form .list-group-item:first-child {
+  margin-top: 35px;
 }
 
 @media screen and (max-width: 600px) {
