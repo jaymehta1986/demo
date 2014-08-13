@@ -1,1 +1,11 @@
-<div id="home" class="row"> <div class="large-6 large-offset-3"> <h2> {{ title }} </h2> </div></div>
+<div id="home" class="row"> <div class="large-6 large-offset-3"> <h2> {{ title }} </h2> <!-- <div class="list-group">
+	  <a href="#plant" class="list-group-item active" data-toggle="modal">
+	    Cras justo odio
+	  </a>
+	  <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+	  <a href="#" class="list-group-item">Morbi leo risus</a>
+	  <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+	  <a href="#" class="list-group-item">Vestibulum at eros</a>
+	</div>	 --> <div ng-controller="OrderController"> <!-- <button id="place1" href="#order" class="btn btn-default" data-toggle="modal">Open me!</button>
+	    <button id="place2" class="btn btn-default" open-modal-when-clicked>Large modal</button>
+	    <button id="place3" class="btn btn-default" open-modal-when-clicked>Small modal</button>	 --> <div class="list-group"> <a href="#order" class="list-group-item" data-toggle="modal">Plant Oraganic Cafe<span class="glyphicon glyphicon-chevron-right"></span></a> <a href="#order" class="list-group-item" data-toggle="modal">Soup Company<span class="glyphicon glyphicon-chevron-right"></span></a> <a href="#order" class="list-group-item" data-toggle="modal">Wine Shope<span class="glyphicon glyphicon-chevron-right"></span></a> <a href="#order" class="list-group-item" data-toggle="modal">Cafe Med<span class="glyphicon glyphicon-chevron-right"></span></a> </div> </div> <div class="modal fade" id="order" role="dialog"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <h2>Hi there ! Place your order</h2> </div> <div class="modal-body"> <p>this is the body</p> </div> <div class="modal-footer"> <button class="btn btn-primary">OK</button> <button class="btn btn-warning">Cancel</button> </div> </div> </div> </div> </div></div>

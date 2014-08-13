@@ -72,6 +72,12 @@ div.view {
   text-align: center;
 }
 
+span.glyphicon {
+  position: absolute;
+  right: 6px;
+  top: 13px;  
+}
+
 @media screen and (max-width: 600px) {
   
   div.view {

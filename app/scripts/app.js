@@ -38,6 +38,10 @@ var demoApp = angular
         templateUrl: 'views/home.html',
         controller: 'HomeController'
       })
+      .when('/createorder', {
+        templateUrl: 'views/createorder.html',
+        controller: 'createorderController'
+      })
 
       .otherwise({
         redirectTo: '/'
@@ -67,6 +71,28 @@ var demoApp = angular
     };
   });
 
+  // demoApp.directive("openModalWhenClicked", function() {
+  //   return {
+  //     restrict: "A",
+  //     link: function (scope, modal, element, attributes) {
+  //       element.bind("click", function () {
+  //         var modalInstance = $modal.open({
+  //           templateUrl: 'myModalContent.html',
+  //           controller: ModalInstanceCtrl,
+  //           size: size,
+  //           resolve: {
+  //             items: function () {
+  //               return $scope.items;
+  //             }
+  //           }
+  //         });
+    
+  //       });
+  //     } 
+  //   }
+  // });
+
+ 
 
   demoApp.directive("showsMessageWhenHovered", function() {
   return {

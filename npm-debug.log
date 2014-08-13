@@ -1,0 +1,139 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 warn package.json demo@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/jd/Documents/demo-app',
+6 verbose install   [ 'express',
+6 verbose install     'grunt',
+6 verbose install     'gzippo',
+6 verbose install     'logfmt',
+6 verbose install     'morgan',
+6 verbose install     'angular-ui-bootstrap',
+6 verbose install     'grunt-cli',
+6 verbose install     'grunt-autoprefixer',
+6 verbose install     'grunt-concurrent',
+6 verbose install     'grunt-contrib-clean',
+6 verbose install     'grunt-contrib-concat',
+6 verbose install     'grunt-contrib-connect',
+6 verbose install     'grunt-contrib-copy',
+6 verbose install     'grunt-contrib-cssmin',
+6 verbose install     'grunt-contrib-htmlmin',
+6 verbose install     'grunt-contrib-imagemin',
+6 verbose install     'grunt-contrib-jshint',
+6 verbose install     'grunt-contrib-uglify',
+6 verbose install     'grunt-contrib-watch',
+6 verbose install     'grunt-filerev',
+6 verbose install     'grunt-google-cdn',
+6 verbose install     'grunt-newer',
+6 verbose install     'grunt-ngmin',
+6 verbose install     'grunt-svgmin',
+6 verbose install     'grunt-usemin',
+6 verbose install     'grunt-wiredep',
+6 verbose install     'jshint-stylish',
+6 verbose install     'load-grunt-tasks',
+6 verbose install     'time-grunt' ] ]
+7 info preinstall demo@0.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping gzippo@^0.2.0 /Users/jd/Documents/demo-app
+10 verbose already installed skipping express@^4.8.1 /Users/jd/Documents/demo-app
+11 verbose already installed skipping grunt@^0.4.1 /Users/jd/Documents/demo-app
+12 verbose already installed skipping logfmt@^1.1.2 /Users/jd/Documents/demo-app
+13 verbose already installed skipping morgan@^1.2.2 /Users/jd/Documents/demo-app
+14 verbose cache add [ 'angular-ui-bootstrap@*', null ]
+15 verbose cache add name=undefined spec="angular-ui-bootstrap@*" args=["angular-ui-bootstrap@*",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'angular-ui-bootstrap@*',
+16 verbose parsed url   path: 'angular-ui-bootstrap@*',
+16 verbose parsed url   href: 'angular-ui-bootstrap@*' }
+17 verbose already installed skipping grunt-cli@* /Users/jd/Documents/demo-app
+18 verbose already installed skipping grunt-autoprefixer@^0.7.3 /Users/jd/Documents/demo-app
+19 verbose already installed skipping grunt-concurrent@^0.5.0 /Users/jd/Documents/demo-app
+20 verbose cache add name="angular-ui-bootstrap" spec="*" args=["angular-ui-bootstrap","*"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '*',
+21 verbose parsed url   path: '*',
+21 verbose parsed url   href: '*' }
+22 verbose addNamed [ 'angular-ui-bootstrap', '*' ]
+23 verbose addNamed [ null, '*' ]
+24 verbose already installed skipping grunt-contrib-clean@^0.5.0 /Users/jd/Documents/demo-app
+25 silly lockFile 926d7610-angular-ui-bootstrap angular-ui-bootstrap@*
+26 verbose lock angular-ui-bootstrap@* /Users/jd/.npm/926d7610-angular-ui-bootstrap.lock
+27 verbose already installed skipping grunt-contrib-concat@^0.4.0 /Users/jd/Documents/demo-app
+28 silly addNameRange { name: 'angular-ui-bootstrap', range: '*', hasData: false }
+29 verbose already installed skipping grunt-contrib-connect@^0.7.1 /Users/jd/Documents/demo-app
+30 verbose url raw angular-ui-bootstrap
+31 verbose url resolving [ 'https://registry.npmjs.org/', './angular-ui-bootstrap' ]
+32 verbose url resolved https://registry.npmjs.org/angular-ui-bootstrap
+33 info trying registry request attempt 1 at 14:37:06
+34 verbose etag "73ND1AJ22G05KACD6IKVQAJK4"
+35 http GET https://registry.npmjs.org/angular-ui-bootstrap
+36 verbose already installed skipping grunt-contrib-htmlmin@^0.3.0 /Users/jd/Documents/demo-app
+37 verbose already installed skipping grunt-contrib-copy@^0.5.0 /Users/jd/Documents/demo-app
+38 verbose already installed skipping grunt-contrib-cssmin@^0.9.0 /Users/jd/Documents/demo-app
+39 verbose already installed skipping grunt-contrib-imagemin@^0.7.0 /Users/jd/Documents/demo-app
+40 verbose already installed skipping grunt-contrib-jshint@^0.10.0 /Users/jd/Documents/demo-app
+41 verbose already installed skipping grunt-contrib-uglify@^0.4.0 /Users/jd/Documents/demo-app
+42 verbose already installed skipping grunt-contrib-watch@^0.6.1 /Users/jd/Documents/demo-app
+43 verbose already installed skipping grunt-filerev@^0.2.1 /Users/jd/Documents/demo-app
+44 verbose already installed skipping grunt-google-cdn@^0.4.0 /Users/jd/Documents/demo-app
+45 verbose already installed skipping grunt-newer@^0.7.0 /Users/jd/Documents/demo-app
+46 verbose already installed skipping grunt-ngmin@^0.0.3 /Users/jd/Documents/demo-app
+47 verbose already installed skipping grunt-svgmin@^0.4.0 /Users/jd/Documents/demo-app
+48 verbose already installed skipping grunt-usemin@^2.1.1 /Users/jd/Documents/demo-app
+49 verbose already installed skipping grunt-wiredep@^1.7.0 /Users/jd/Documents/demo-app
+50 verbose already installed skipping jshint-stylish@^0.2.0 /Users/jd/Documents/demo-app
+51 verbose already installed skipping load-grunt-tasks@^0.4.0 /Users/jd/Documents/demo-app
+52 verbose already installed skipping time-grunt@^0.3.1 /Users/jd/Documents/demo-app
+53 http 404 https://registry.npmjs.org/angular-ui-bootstrap
+54 silly registry.get cb [ 404,
+54 silly registry.get   { date: 'Tue, 12 Aug 2014 21:37:06 GMT',
+54 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+54 silly registry.get     etag: '"73ND1AJ22G05KACD6IKVQAJK4"',
+54 silly registry.get     'content-type': 'application/json',
+54 silly registry.get     'cache-control': 'max-age=0',
+54 silly registry.get     'content-length': '768',
+54 silly registry.get     'accept-ranges': 'bytes',
+54 silly registry.get     via: '1.1 varnish',
+54 silly registry.get     age: '0',
+54 silly registry.get     'x-served-by': 'cache-lax1425-LAX',
+54 silly registry.get     'x-cache': 'MISS',
+54 silly registry.get     'x-cache-hits': '0',
+54 silly registry.get     'x-timer': 'S1407879426.491781,VS0,VE77',
+54 silly registry.get     vary: 'Accept',
+54 silly registry.get     'keep-alive': 'timeout=10, max=50',
+54 silly registry.get     connection: 'Keep-Alive' } ]
+55 silly lockFile 926d7610-angular-ui-bootstrap angular-ui-bootstrap@*
+56 silly lockFile 926d7610-angular-ui-bootstrap angular-ui-bootstrap@*
+57 error 404 Not Found
+57 error 404
+57 error 404 'angular-ui-bootstrap' is not in the npm registry.
+57 error 404 You should bug the author to publish it
+57 error 404 It was specified as a dependency of 'demo'
+57 error 404
+57 error 404 Note that you can also install from a
+57 error 404 tarball, folder, or http url, or git url.
+58 error System Darwin 13.3.0
+59 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+60 error cwd /Users/jd/Documents/demo-app
+61 error node -v v0.10.29
+62 error npm -v 1.4.14
+63 error code E404
+64 verbose exit [ 1, true ]
